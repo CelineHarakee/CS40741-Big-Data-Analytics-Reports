@@ -47,41 +47,81 @@ Templates/
 
 ## How to Submit a Problem Report
 
-1. Go to the correct **Lab folder**.
-2. Copy the file from `Templates/problem_template.md`.
-3. Rename it using the format:
+Students can submit their lab problem reports using **one of the two methods below**.
+
+- If you are comfortable with Git → use **Pull Requests**.
+- If you want a simpler method → use **GitHub Issues**.
+
+
+### Option 1: Submit via Pull Request 
+#### Step 1: Fork the Repository
+
+1. Go to the main repository page.
+2. Click the **Fork** button (top right).
+3. This creates a copy under your GitHub account.
+
+#### Step 2: Add Your Report
+
+1. Open your forked repository.
+2. Navigate to the correct `Lab` folder.
+3. Click **Add file → Create new file**.
+4. Name your file using this format:
 
 ```
-LabNumber_ProblemShortTitle_YourName.md
+LabNumber_ShortProblemTitle_YourName.md
 ```
 
 Example:
 
 ```
-Lab2_HadoopInstallation_Celine.md
+Lab3_FileNotFoundError_Celine.md
 ```
 
-4. Fill in all sections clearly.
-5. Commit your changes (or submit a Pull Request if required).
+5. Copy the template from the `Templates` folder.
+6. Fill in all required sections clearly.
+7. Scroll down and click **Commit changes**.
+
+#### Step 3: Submit a Pull Request
+
+1. Go back to your forked repository.
+2. Click **Compare & Pull Request**.
+3. Add a short description of your problem.
+4. Click **Create Pull Request**.
+
+Your report will be reviewed and merged after approval.
 
 ---
 
-## Problem Report Format
+### Option 2: Submit via GitHub Issues
+#### Step 1: Go to the "Issues" Tab
 
-Each report should include:
+1. Open the main repository.
+2. Click on the **Issues** tab.
+3. Click **New Issue**.
 
-* **Lab number**
-* **Student name**
-* **Date**
-* **Problem description**
-* **Steps taken**
-* **Error messages**
-* **Final solution**
-* **Notes / Lessons learned**
+#### Step 2: Create Your Report
 
-Clear explanations are more valuable than short answers.
+1. Title your issue using this format:
 
----
+```
+LabNumber - Short Problem Title
+```
+
+Example:
+
+```
+Lab3 - FileNotFoundError when loading dataset
+```
+
+2. Fill in the problem details:
+
+   * Problem description
+   * Error message
+   * Steps taken
+   * Final solution
+   * Notes
+
+3. Click **Submit new issue**.
 
 ## Collaboration
 
