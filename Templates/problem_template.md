@@ -1,9 +1,9 @@
 # Problem Report Template
 
 **Lab:** [Lab Number/Name]  
-**Student:** [Your Name]
-**Student ID:** [Your Student ID]
-**Date:** [DD/MM/YYYY]
+**Student:** [Your Name] <br>
+**Student ID:** [Your Student ID] <br>
+**Date:** [DD/MM/YYYY] <br>
 
 ## Problem Description
 [Explain the problem or error encountered.]
