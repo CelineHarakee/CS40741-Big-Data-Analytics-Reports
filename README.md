@@ -123,6 +123,8 @@ Lab3 - FileNotFoundError when loading dataset
 
 3. Click **Submit new issue**.
 
+***When submitting via Issues, please assign the appropriate label.***
+
 ## Collaboration
 
 Students are encouraged to:
